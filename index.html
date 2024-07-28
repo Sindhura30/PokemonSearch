@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Search</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Pokemon Search</h1>
+    <div class="container">
+        <div class="main">
+            <form>
+                <label id="search-lbl" for="search-input">Search for Pokemon name or ID :</label>
+                <input type="text" required id="search-input" />
+                <button id="search-button">SEARCH</button>
+            </form>
+            <div class="pokemon-img-placeholder">
+                <div id="pokemon-img">
+
+                </div>
+            </div>
+            <div class="pokemon-details-table">
+                <div class="table-row heading">
+                    <div class="row-item">Base</div>
+                    <div class="row-item">Stats</div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">Name</div>
+                    <div class="row-item" id="pokemon-name">
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">Id</div>
+                    <div class="row-item" id="pokemon-id">
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">Weight</div>
+                    <div class="row-item" id="weight">
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">Height</div>
+                    <div class="row-item" id="height">
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">Types</div>
+                    <div class="row-item" id="types">
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">HP</div>
+                    <div class="row-item" id="hp">
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">Attack</div>
+                    <div class="row-item" id="attack">
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">Defense</div>
+                    <div class="row-item" id="defense">
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">Special Attack</div>
+                    <div class="row-item" id="special-attack">
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">Special Defense</div>
+                    <div class="row-item" id="special-defense">
+                    </div>
+                </div>
+                <div class="table-row">
+                    <div class="row-item">Speed</div>
+                    <div class="row-item" id="speed">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
